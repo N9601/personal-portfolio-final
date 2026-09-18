@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#080808"/>
+      <stop offset="1" stop-color="#0a0d18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#0066ff" stop-opacity="0.35"/>
+      <stop offset="0.5" stop-color="#ff5500" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#080808" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#1a1a1a" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- HUD top-left -->
+  <g transform="translate(60, 60)">
+    <rect width="16" height="16" fill="#0066ff"/>
+    <text x="28" y="13" font-family="ui-monospace, monospace" font-size="14" letter-spacing="4" fill="#f5f5f5">NANDAKISHORE / FULL-STACK</text>
+    <text x="28" y="32" font-family="ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#6b6b6b">// HYDERABAD, IN</text>
+  </g>
+
+  <!-- HUD top-right -->
+  <g transform="translate(1020, 60)">
+    <circle cx="6" cy="6" r="6" fill="#ff1133"/>
+    <text x="22" y="11" font-family="ui-monospace, monospace" font-size="13" letter-spacing="4" fill="#f5f5f5">AVAILABLE</text>
+  </g>
+
+  <!-- Big NAME background -->
+  <text x="60" y="450" font-family="Space Grotesk, Inter, sans-serif" font-size="115" font-weight="300" letter-spacing="-6" fill="#f5f5f5">
+    NANDAKISHORE<tspan fill="#0066ff">.</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="60" y="510" font-family="ui-monospace, monospace" font-size="22" letter-spacing="4" fill="#0066ff">
+    FULL-STACK DEVELOPER · REACT · NEXT.JS · SUPABASE
+  </text>
+  <text x="60" y="540" font-family="ui-monospace, monospace" font-size="16" letter-spacing="3" fill="#6b6b6b">
+    ▸ BUILDING EDUCATIONAL PLATFORMS THAT TURN SYSTEMS INTO SOMETHING YOU CAN TOUCH
+  </text>
+
+  <!-- Bottom-left meta -->
+  <g transform="translate(60, 590)">
+    <text font-family="ui-monospace, monospace" font-size="11" letter-spacing="3" fill="#6b6b6b">
+      ©2026 NANDAKISHORE REDDY · TOP 1% OF COHORT · B.TECH CSE @ VNR VJIET
+    </text>
+  </g>
+
+  <!-- Right-side accents -->
+  <g transform="translate(1050, 280)">
+    <rect width="100" height="80" fill="none" stroke="#0066ff" stroke-width="1"/>
+    <rect x="10" y="10" width="80" height="60" fill="none" stroke="#0066ff" stroke-opacity="0.4" stroke-dasharray="2 3"/>
+    <line x1="0" y1="40" x2="-20" y2="40" stroke="#ff1133" stroke-dasharray="2 3"/>
+    <text x="20" y="46" font-family="ui-monospace, monospace" font-size="10" letter-spacing="2" fill="#f5f5f5">CORE.01</text>
+  </g>
+</svg>
